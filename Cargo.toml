@@ -1,0 +1,12 @@
+[package]
+name = "contrato_rw_bryan"
+version = "0.1.0"
+edition = "2021"
+authors = ["Bryan <bryan@example.com>"]
+description = "Contrato inteligente de lecturas y escrituras personalizado por Bryan."
+
+[dependencies]
+soroban-sdk = "20.0.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]

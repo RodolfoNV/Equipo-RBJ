@@ -1,0 +1,8 @@
+                                                                                                                                                                                         # Ignorar carpeta target de compilaciones de Bryan
+/target_bryan/
+
+# Ignorar archivos específicos del sistema
+.DS_Store
+
+# Ignorar archivos WebAssembly compilados
+*.wasm_bryan
